@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./MainScreen.css";
 import CityInput from "../components/City/InputCity";
 import StateInput from "../components/State/InputState";
 import AdressInput from "../components/Address/InputAddress";
 import CustomButton from "../components/Button/Button";
-
-import api2 from "../services/api2";
 
 import api from "../services/api";
 // import { Container } from './styles';
@@ -15,12 +13,10 @@ const Main = (props) => {
   const [state, setState] = useState("");
   const [address, setAddress] = useState("");
   const [apidata, setApiData] = useState([]);
-  const [imageapi, setImageApi] = useState("");
 
   async function SearchZip() {
     const respose = await api.get(`/${state}/${city}/${address}/json`);
     setApiData(respose.data);
-    console.log(respose.data);
   }
 
   return (
