@@ -19,6 +19,6 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `yarn build`
 
-### `Para fazer uma busca de CEP basta informar a cidade o estado e o logradouro(geralmente é uma rua ou avenida)`
+### `Para fazer uma busca de CEP basta informar a cidade, sigla do estado e o logradouro(geralmente é uma rua ou avenida)`
 
         ![](images/Capturar.PNG)
