@@ -21,4 +21,4 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `Para fazer uma busca de CEP basta informar a cidade, sigla do estado e o logradouro(geralmente é uma rua ou avenida)`
 
-        ![](images/Capturar.PNG)
+![](images/Capturar.PNG)
