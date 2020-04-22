@@ -1,0 +1,11 @@
+.input-container {
+  margin: 20px;
+}
+
+.input {
+  background-color: rgb(56, 56, 56);
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: medium;
+}

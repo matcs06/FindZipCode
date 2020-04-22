@@ -1,0 +1,14 @@
+.input-container {
+  margin: 20px;
+  height: 10vh;
+}
+
+.inputS {
+  background-color: rgb(65, 62, 62);
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: large;
+  margin-bottom: 400px;
+  max-width: 50px;
+}
